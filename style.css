@@ -1,0 +1,82 @@
+h1 {
+    color: Red;
+    text-align: center;
+    margin: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25em;
+    color: rgb(255, 77, 0);
+    margin-left: 1.2rem;
+    margin-top: 2.5rem;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-left: 1.2rem;
+}
+
+p {
+    font-size: 1.1em;
+    margin-left: 1.2rem;
+    margin-top: 1.25rem;
+}
+
+button {
+    padding: 0.75rem;
+    font-size: 0.95em;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    border: none;
+    box-shadow: 0 0 2px 1px rgb(96, 92, 92);
+    margin-left: 1.2rem;
+    border-radius: 5px;    
+}
+
+button:hover {
+    color: rgb(35,35,35);
+    background-color: white;
+    box-shadow: 0 0 2.5px 1px rgb(55, 52, 52);
+    font-weight: 600;
+} 
+
+form {
+    margin-left: 1.2rem;
+    margin-top: 2rem;
+}
+
+ label, input {
+    font-size: 1.2em;
+}
+
+
+#contenedor_listaPublicaciones {
+    width: 65%;
+    margin: 0 auto ;
+}
+
+
+#contenedor_busquedaPelicula {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#contenedor_busquedaFotos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.foto-galeria {
+    width: 12.5rem; 
+    height: 9.375rem; 
+    object-fit: cover; 
+    margin: 10px; 
+    border-radius: 10px; 
+}
+
